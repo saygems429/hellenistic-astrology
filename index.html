@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hellenistic Astrology — The Ancient Art of the Stars</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;900&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">☉ Hellenistic Astrology</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#origins">Origins</a></li>
+        <li><a href="#planets">Planets</a></li>
+        <li><a href="#signs">Signs</a></li>
+        <li><a href="#houses">Houses</a></li>
+        <li><a href="#techniques">Techniques</a></li>
+        <li><a href="#philosophers">Philosophers</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="stars" id="stars"></div>
+    <div class="hero-content">
+      <div class="hero-symbol">✦</div>
+      <h1>Hellenistic Astrology</h1>
+      <p class="hero-subtitle">The Ancient Science of the Heavens</p>
+      <p class="hero-desc">Born in the Hellenistic world between 3rd century BCE and 7th century CE, this tradition wove together Babylonian observation, Egyptian decans, and Greek philosophy into the most sophisticated astrological system of the ancient world.</p>
+      <div class="hero-cta">
+        <a href="#origins" class="btn-primary">Explore the Tradition</a>
+        <a href="#techniques" class="btn-secondary">Key Techniques</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">↓</div>
+  </section>
+
+  <!-- ORIGINS -->
+  <section id="origins">
+    <div class="container">
+      <div class="section-label">The Foundation</div>
+      <h2 class="section-title">Origins &amp; History</h2>
+      <div class="origins-grid">
+        <div class="origin-card">
+          <div class="origin-icon">𓂀</div>
+          <h3>Egyptian Roots</h3>
+          <p>The decanic system — dividing the zodiac into 36 segments of 10° each — emerged from ancient Egyptian temple ceilings and star calendars. Egypt's Hellenistic capital, Alexandria, became the cradle of the new synthesis.</p>
+        </div>
+        <div class="origin-card">
+          <div class="origin-icon">𒀭</div>
+          <h3>Babylonian Inheritance</h3>
+          <p>Centuries of meticulous astronomical records from Mesopotamia provided the planetary observations and omens that formed the empirical backbone of Hellenistic astrology. The zodiac itself was a Babylonian invention.</p>
+        </div>
+        <div class="origin-card">
+          <div class="origin-icon">⚛</div>
+          <h3>Greek Philosophy</h3>
+          <p>Stoic cosmology, Platonic metaphysics, and Aristotelian physics gave astrology its theoretical framework. The concept of sympathy (συμπάθεια) — the interconnectedness of all things — underpinned the whole system.</p>
+        </div>
+        <div class="origin-card">
+          <div class="origin-icon">⚖</div>
+          <h3>The Synthesis</h3>
+          <p>Around the 1st–2nd century BCE, the nativity (birth chart) became the primary focus. This shift from mundane omen interpretation to individual fate reading marks the birth of horoscopic astrology as we know it.</p>
+        </div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">~3rd c. BCE</div>
+          <div class="timeline-text">Berossus brings Babylonian astrology to Greece via Kos</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">~2nd c. BCE</div>
+          <div class="timeline-text">First Greek horoscopes cast; <em>Asclepius</em> texts circulate in Egypt</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">1st c. BCE–1st c. CE</div>
+          <div class="timeline-text">Manilius writes <em>Astronomica</em>; Dorotheus of Sidon composes <em>Carmen Astrologicum</em></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2nd c. CE</div>
+          <div class="timeline-text">Ptolemy's <em>Tetrabiblos</em> and Vettius Valens' <em>Anthology</em> — the twin pillars of the tradition</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">4th–7th c. CE</div>
+          <div class="timeline-text">Firmicus Maternus, Paulus Alexandrinus, and Rhetorius preserve and transmit the tradition</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANETS -->
+  <section id="planets">
+    <div class="container">
+      <div class="section-label">The Seven Wanderers</div>
+      <h2 class="section-title">The Classical Planets</h2>
+      <p class="section-intro">Hellenistic astrology recognized seven planets — the "wandering stars" visible to the naked eye. Each carried rich mythological, physical, and temperamental meanings.</p>
+      <div class="planets-grid">
+        <div class="planet-card" data-planet="sun">
+          <div class="planet-glyph">☉</div>
+          <div class="planet-name">The Sun</div>
+          <div class="planet-greek">Ἥλιος · Helios</div>
+          <div class="planet-traits">
+            <span>Sect: Day</span>
+            <span>Domicile: Leo</span>
+            <span>Exaltation: Aries</span>
+          </div>
+          <p>The luminary of the day sect, the Sun represents the soul, vital spirit, kings, fathers, and public honor. Its position in the chart reveals one's identity and life purpose.</p>
+        </div>
+        <div class="planet-card" data-planet="moon">
+          <div class="planet-glyph">☽</div>
+          <div class="planet-name">The Moon</div>
+          <div class="planet-greek">Σελήνη · Selene</div>
+          <div class="planet-traits">
+            <span>Sect: Night</span>
+            <span>Domicile: Cancer</span>
+            <span>Exaltation: Taurus</span>
+          </div>
+          <p>Luminary of the night sect, the Moon governs the body, instincts, mothers, the common people, and all things moist and changeable. She reflects the soul's receptive nature.</p>
+        </div>
+        <div class="planet-card" data-planet="mercury">
+          <div class="planet-glyph">☿</div>
+          <div class="planet-name">Mercury</div>
+          <div class="planet-greek">Ἑρμῆς · Hermes</div>
+          <div class="planet-traits">
+            <span>Sect: Both</span>
+            <span>Domicile: Gemini/Virgo</span>
+            <span>Exaltation: Virgo</span>
+          </div>
+          <p>The messenger and trickster, Mercury rules the rational mind, speech, writing, commerce, and dexterity. As the only planet of both sects, it adapts its nature to context.</p>
+        </div>
+        <div class="planet-card" data-planet="venus">
+          <div class="planet-glyph">♀</div>
+          <div class="planet-name">Venus</div>
+          <div class="planet-greek">Ἀφροδίτη · Aphrodite</div>
+          <div class="planet-traits">
+            <span>Sect: Night</span>
+            <span>Domicile: Taurus/Libra</span>
+            <span>Exaltation: Pisces</span>
+          </div>
+          <p>The lesser benefic, Venus bestows beauty, love, pleasure, arts, and harmony. In a night chart she is especially powerful, bringing grace and good fortune to matters of affection.</p>
+        </div>
+        <div class="planet-card" data-planet="mars">
+          <div class="planet-glyph">♂</div>
+          <div class="planet-name">Mars</div>
+          <div class="planet-greek">Ἄρης · Ares</div>
+          <div class="planet-traits">
+            <span>Sect: Day</span>
+            <span>Domicile: Aries/Scorpio</span>
+            <span>Exaltation: Capricorn</span>
+          </div>
+          <p>The lesser malefic, Mars governs conflict, courage, surgery, fire, and iron. In a day chart his heat is tempered; he represents the will to act and the capacity for destruction.</p>
+        </div>
+        <div class="planet-card" data-planet="jupiter">
+          <div class="planet-glyph">♃</div>
+          <div class="planet-name">Jupiter</div>
+          <div class="planet-greek">Ζεύς · Zeus</div>
+          <div class="planet-traits">
+            <span>Sect: Day</span>
+            <span>Domicile: Sagittarius/Pisces</span>
+            <span>Exaltation: Cancer</span>
+          </div>
+          <p>The greater benefic, Jupiter signifies expansion, justice, philosophy, wealth, and divine favor. He is the most fortunate planet, bringing abundance wherever he casts his rays.</p>
+        </div>
+        <div class="planet-card" data-planet="saturn">
+          <div class="planet-glyph">♄</div>
+          <div class="planet-name">Saturn</div>
+          <div class="planet-greek">Κρόνος · Kronos</div>
+          <div class="planet-traits">
+            <span>Sect: Night</span>
+            <span>Domicile: Capricorn/Aquarius</span>
+            <span>Exaltation: Libra</span>
+          </div>
+          <p>The greater malefic, Saturn rules time, limitation, old age, agriculture, and grief. Yet he also governs wisdom earned through hardship and the discipline that leads to mastery.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIGNS -->
+  <section id="signs">
+    <div class="container">
+      <div class="section-label">The Twelve Signs</div>
+      <h2 class="section-title">Signs of the Zodiac</h2>
+      <p class="section-intro">The twelve zodiacal signs (ζῴδια) are not simply personality types — in Hellenistic astrology they are places in space, each with distinct qualities of light, motion, and elemental nature.</p>
+      <div class="signs-wheel">
+        <div class="wheel-container">
+          <svg class="zodiac-wheel" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="200" cy="200" r="190" fill="none" stroke="rgba(255,215,100,0.2)" stroke-width="1"/>
+            <circle cx="200" cy="200" r="150" fill="none" stroke="rgba(255,215,100,0.15)" stroke-width="1"/>
+            <circle cx="200" cy="200" r="80" fill="rgba(10,5,30,0.8)" stroke="rgba(255,215,100,0.3)" stroke-width="1.5"/>
+            <text x="200" y="210" text-anchor="middle" font-size="28" fill="rgba(255,215,100,0.8)">☉</text>
+            <g id="signs-group"></g>
+          </svg>
+        </div>
+        <div class="signs-list">
+          <div class="sign-item fire"><span class="sign-glyph">♈</span><span class="sign-name">Aries</span><span class="sign-quality">Cardinal Fire · Mars</span></div>
+          <div class="sign-item earth"><span class="sign-glyph">♉</span><span class="sign-name">Taurus</span><span class="sign-quality">Fixed Earth · Venus</span></div>
+          <div class="sign-item air"><span class="sign-glyph">♊</span><span class="sign-name">Gemini</span><span class="sign-quality">Mutable Air · Mercury</span></div>
+          <div class="sign-item water"><span class="sign-glyph">♋</span><span class="sign-name">Cancer</span><span class="sign-quality">Cardinal Water · Moon</span></div>
+          <div class="sign-item fire"><span class="sign-glyph">♌</span><span class="sign-name">Leo</span><span class="sign-quality">Fixed Fire · Sun</span></div>
+          <div class="sign-item earth"><span class="sign-glyph">♍</span><span class="sign-name">Virgo</span><span class="sign-quality">Mutable Earth · Mercury</span></div>
+          <div class="sign-item air"><span class="sign-glyph">♎</span><span class="sign-name">Libra</span><span class="sign-quality">Cardinal Air · Venus</span></div>
+          <div class="sign-item water"><span class="sign-glyph">♏</span><span class="sign-name">Scorpio</span><span class="sign-quality">Fixed Water · Mars</span></div>
+          <div class="sign-item fire"><span class="sign-glyph">♐</span><span class="sign-name">Sagittarius</span><span class="sign-quality">Mutable Fire · Jupiter</span></div>
+          <div class="sign-item earth"><span class="sign-glyph">♑</span><span class="sign-name">Capricorn</span><span class="sign-quality">Cardinal Earth · Saturn</span></div>
+          <div class="sign-item air"><span class="sign-glyph">♒</span><span class="sign-name">Aquarius</span><span class="sign-quality">Fixed Air · Saturn</span></div>
+          <div class="sign-item water"><span class="sign-glyph">♓</span><span class="sign-name">Pisces</span><span class="sign-quality">Mutable Water · Jupiter</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOUSES -->
+  <section id="houses">
+    <div class="container">
+      <div class="section-label">The Twelve Places</div>
+      <h2 class="section-title">The Houses (Topoi)</h2>
+      <p class="section-intro">The twelve houses — called <em>topoi</em> (τόποι, "places") in Greek — divide the celestial sphere relative to the horizon. Each house governs a distinct sphere of earthly life.</p>
+      <div class="houses-grid">
+        <div class="house-card good"><div class="house-num">I</div><div class="house-name">The Helm / Ascendant</div><p>Life, the body, character, early years. The most powerful angle — where the soul enters the world.</p></div>
+        <div class="house-card bad"><div class="house-num">II</div><div class="house-name">The Gate of Hades</div><p>Resources, livelihood, possessions. A weak cadent house, traditionally inauspicious.</p></div>
+        <div class="house-card neutral"><div class="house-num">III</div><div class="house-name">The Goddess</div><p>Siblings, short journeys, communications, religion. Moon-like in its cyclical associations.</p></div>
+        <div class="house-card good"><div class="house-num">IV</div><div class="house-name">The Subterranean Pivot</div><p>Parents, home, land, lineage, the end of matters. An angle of deep foundational importance.</p></div>
+        <div class="house-card good"><div class="house-num">V</div><div class="house-name">Good Fortune</div><p>Children, pleasure, creativity, erotic love. The Joy of Venus — a place of delight and abundance.</p></div>
+        <div class="house-card bad"><div class="house-num">VI</div><div class="house-name">Bad Fortune</div><p>Illness, servitude, enemies, animals. The Joy of Mars — a difficult place of hardship.</p></div>
+        <div class="house-card good"><div class="house-num">VII</div><div class="house-name">The Setting Place</div><p>Marriage, partnerships, open enemies, contracts. The western angle — powerful and relational.</p></div>
+        <div class="house-card neutral"><div class="house-num">VIII</div><div class="house-name">The Idle Place</div><p>Death, inheritance, surgery, the resources of others. Traditionally weak but intensely karmic.</p></div>
+        <div class="house-card good"><div class="house-num">IX</div><div class="house-name">The God</div><p>Philosophy, religion, long journeys, dreams, divination. The Joy of the Sun — exalted matters.</p></div>
+        <div class="house-card good"><div class="house-num">X</div><div class="house-name">The Midheaven</div><p>Career, fame, public life, authority. The highest angle — the peak of solar power.</p></div>
+        <div class="house-card good"><div class="house-num">XI</div><div class="house-name">Good Spirit</div><p>Friends, hopes, gifts of fortune, patrons. The Joy of Jupiter — a place of beneficence.</p></div>
+        <div class="house-card bad"><div class="house-num">XII</div><div class="house-name">Bad Spirit</div><p>Exile, hidden enemies, imprisonment, grief. The Joy of Saturn — a place of restriction and sorrow.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECHNIQUES -->
+  <section id="techniques">
+    <div class="container">
+      <div class="section-label">The Craft</div>
+      <h2 class="section-title">Key Techniques</h2>
+      <div class="techniques-accordion" id="accordion">
+        <div class="accordion-item">
+          <button class="accordion-btn"><span class="acc-icon">⊕</span><span>Sect (Hairesis)</span><span class="acc-arrow">▾</span></button>
+          <div class="accordion-body"><p>The most fundamental organizing principle. A chart is either a <em>day chart</em> (Sun above the horizon) or a <em>night chart</em> (Sun below). Day sect planets (Sun, Jupiter, Saturn) are stronger in day charts; night sect planets (Moon, Venus, Mars) perform better at night.</p></div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-btn"><span class="acc-icon">△</span><span>Aspects &amp; the Five Configurations</span><span class="acc-arrow">▾</span></button>
+          <div class="accordion-body"><p>Five aspects: <strong>conjunction</strong> (0°), <strong>sextile</strong> (60°), <strong>square</strong> (90°), <strong>trine</strong> (120°), and <strong>opposition</strong> (180°). These are geometric relationships between signs that "see" each other.</p></div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-btn"><span class="acc-icon">⊗</span><span>Lots (Κλῆρoι)</span><span class="acc-arrow">▾</span></button>
+          <div class="accordion-body"><p>Sensitive points calculated from planet relationships projected from the Ascendant. The <strong>Lot of Fortune</strong> indicates body and material life; the <strong>Lot of Spirit</strong> indicates the soul and free will.</p></div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-btn"><span class="acc-icon">⊙</span><span>Time-Lord Techniques</span><span class="acc-arrow">▾</span></button>
+          <div class="accordion-body"><p><strong>Annual Profections</strong>: the Ascendant advances one house per year. <strong>Zodiacal Releasing</strong> produces major and minor periods of activation from the Lots of Fortune and Spirit.</p></div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-btn"><span class="acc-icon">♆</span><span>Essential Dignities</span><span class="acc-arrow">▾</span></button>
+          <div class="accordion-body"><p><strong>Domicile</strong>, <strong>Exaltation</strong>, <strong>Triplicity</strong>, <strong>Bounds</strong>, and <strong>Face</strong> — five layers of planetary strength based on the sign occupied.</p></div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-btn"><span class="acc-icon">☊</span><span>Bonification &amp; Maltreatment</span><span class="acc-arrow">▾</span></button>
+          <div class="accordion-body"><p>Planets bonified by Jupiter gain benefic influence. Planets <strong>under the beams</strong> (within 15° of the Sun) are combust. <strong>Cazimi</strong> (within 16′) is instead a place of great honor.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHILOSOPHERS -->
+  <section id="philosophers">
+    <div class="container">
+      <div class="section-label">The Masters</div>
+      <h2 class="section-title">Key Figures</h2>
+      <div class="philosophers-grid">
+        <div class="philosopher-card"><div class="phil-initial">Π</div><h3>Ptolemy</h3><div class="phil-dates">c. 100–170 CE · Alexandria</div><p>Author of the <em>Tetrabiblos</em> (Τετράβιβλος), the most influential astrological text of antiquity.</p></div>
+        <div class="philosopher-card"><div class="phil-initial">Β</div><h3>Vettius Valens</h3><div class="phil-dates">c. 120–175 CE · Antioch</div><p>Author of the <em>Anthology</em> (Ἀνθολόγια), the primary source for time-lord techniques including Zodiacal Releasing.</p></div>
+        <div class="philosopher-card"><div class="phil-initial">Δ</div><h3>Dorotheus of Sidon</h3><div class="phil-dates">1st c. CE · Sidon</div><p>Author of the <em>Carmen Astrologicum</em>, the foundational text for natal and electional astrology.</p></div>
+        <div class="philosopher-card"><div class="phil-initial">Π</div><h3>Paulus Alexandrinus</h3><div class="phil-dates">4th c. CE · Alexandria</div><p>Author of the <em>Introductory Matters</em> (Εἰσαγωγικά), an accessible introductory text preserving many Hellenistic techniques.</p></div>
+        <div class="philosopher-card"><div class="phil-initial">Η</div><h3>Hephaistio of Thebes</h3><div class="phil-dates">5th c. CE</div><p>Author of the <em>Apotelesmatika</em>, preserving portions of earlier works now lost.</p></div>
+        <div class="philosopher-card"><div class="phil-initial">Μ</div><h3>Manilius</h3><div class="phil-dates">1st c. CE · Rome</div><p>Author of the <em>Astronomica</em>, the earliest surviving complete astrological text in Latin.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-symbol">✦ ☉ ✦</div>
+      <p class="footer-quote">"The stars incline, they do not compel."</p>
+      <p class="footer-tradition">A tradition spanning Babylon, Alexandria &amp; Rome · 3rd century BCE – 7th century CE</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
